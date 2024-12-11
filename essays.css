@@ -5,11 +5,11 @@ html {
     margin: 0;
 }
 body {
-    --text: #f4e2e6;
-    --background: #1e0a0f;
-    --primary: #e08da2;
-    --secondary: #8e203c;
-    --accent: #de4b70;
+    --text: #e2eaf0;
+    --background: #0d161b;
+    --primary: #9bb7cd;
+    --secondary: #514b88;
+    --accent: #8664b2;    
 }
 body {
     font-family: "Work Sans", sans-serif;
@@ -18,26 +18,40 @@ body {
     color: var(--text);
     word-wrap: break-word;
 }
+#narrative-container {
+    --text: #edf4f7;
+    --background: #071013;
+    --primary: #92cee3;
+    --secondary: #177392;
+    --accent: #1db9ed;
+}
+#autoethnography-container {
+    --text: #f0e3e9;
+    --background: #190d14;
+    --primary: #d0a8bf;
+    --secondary: #6f5d3c;
+    --accent: #a0a95f;
+}
 header, main {
     margin-left: 125px;
     margin-right: 125px;
-    text-align: center;
+}
+main {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .essay-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border-radius: 50px;
-    margin: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 20px;
 }
 .title {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
     padding-top: 25px;
-    background: linear-gradient(var(--accent), #ef7493);
+    background: linear-gradient(var(--accent), var(--primary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -53,12 +67,9 @@ header, main {
     line-height: 0;
 }
 .essay-text {
-    font-size: 1.25rem;
-    color: var(--text);
-    line-height: 1.5;
+    font-size: 1.125rem;
     opacity: 75%;
-    margin-right: 25px;
-    margin-left: 25px;
+    line-height: 150%;
     text-indent: 50px;
 }
 
