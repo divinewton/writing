@@ -90,6 +90,9 @@ main {
     border-radius: 18px;
     width: 90%;
 }
+#image-special img {
+    width: 60%;
+}
 .img-caption {
     opacity: 50%;
     text-align: center;
