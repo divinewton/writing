@@ -5,11 +5,11 @@ html {
     margin: 0;
 }
 body {
-    --text: #f4e2e6;
-    --background: #1e0a0f;
-    --primary: #e08da2;
-    --secondary: #8e203c;
-    --accent: #de4b70;
+    --text: #e2eaf0;
+    --background: #0d161b;
+    --primary: #9bb7cd;
+    --secondary: #514b88;
+    --accent: #8664b2;    
 }
 body {
     font-family: "Work Sans", sans-serif;
@@ -31,7 +31,7 @@ header {
     font-size: 4rem;
     font-weight: 650;
     text-align: center;
-    background: linear-gradient(var(--accent), #ef7493);
+    background: linear-gradient(var(--accent), var(--primary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -72,6 +72,9 @@ header {
     margin-right: 25px;
     margin-left: 25px;
     text-align: center;
+}
+.table-link:hover {
+    opacity: 65%;
 }
 .table-link {
     text-decoration: none;
