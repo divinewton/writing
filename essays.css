@@ -97,6 +97,22 @@ main {
     opacity: 50%;
     text-align: center;
 }
+.dict-def {
+    font-size: 1.125rem;
+    opacity: 75%;
+    line-height: 150%;
+    margin-bottom: 35px;
+}
+.dict-name {
+    font-size: 1.5rem;
+    opacity: 75%;
+    line-height: 150%;
+}
+.noun {
+    font-size: 1.125rem;
+    opacity: 50%;
+    line-height: 150%; 
+}
 .works-cited {
     display: flex;
     flex-direction: column;
