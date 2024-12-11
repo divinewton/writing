@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+body {
+    --text: #f4e2e6;
+    --background: #1e0a0f;
+    --primary: #e08da2;
+    --secondary: #8e203c;
+    --accent: #de4b70;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    background-color: var(--background);
+    color: var(--text);
+    word-wrap: break-word;
+}
+header, main {
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align: center;
+}
+.essay-section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+    background: linear-gradient(var(--accent), #ef7493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#titlename {
+    text-decoration: none;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary);
+    text-align: center;
+    line-height: 0;
+}
+.essay-text {
+    font-size: 1.25rem;
+    color: var(--text);
+    line-height: 1.5;
+    opacity: 75%;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-indent: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    opacity: 75%;
+}
+#footer-name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+#footer-name a {
+    color: var(--primary);
+    text-decoration: none;
+}
+#footer-name a:hover {
+    opacity: 75%;
+}
+#footer-link {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+#footer-link a {
+    width: 45px;
+    translate: 18px 0;
+}
+#footer-link a:hover {
+    opacity: 75%;
+}
+@media (max-width: 500px) {
+    #chapman {
+        display: none;
+    }
+}
+#blob-1 {
+    height: 30vmax;
+    aspect-ratio: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -99;
+    opacity: 25%;
+    transform: translate(-170%, -70%);
+    background: linear-gradient(var(--secondary), var(--accent));
+}
+#blob-2 {
+    height: 30vmax;
+    aspect-ratio: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -99;
+    opacity: 25%;
+    transform: translate(70%, 10%);
+    background: linear-gradient(var(--secondary), var(--accent));
+}
