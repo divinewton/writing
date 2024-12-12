@@ -58,6 +58,7 @@ header {
     color: var(--accent);
     text-align: center;
     margin-top: 20px;
+    opacity: 80%;
 }
 .website-section {
     display: flex;
