@@ -3,5 +3,6 @@
     { "source": "/autoethnography", "destination": "/autoethnography.html" },
     { "source": "/multimedia", "destination": "/eurythmy.html" },
     { "source": "/manifesto", "destination": "/manifesto.html" },
-    { "source": "/reflection", "destination": "/reflection.html" }]
+    { "source": "/reflection", "destination": "/reflection.html" },
+    { "source": "/", "destination": "/index.html" }]
   }
