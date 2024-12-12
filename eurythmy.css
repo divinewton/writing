@@ -18,34 +18,70 @@ body {
     color: var(--text);
     word-wrap: break-word;
 }
-header, main {
+#intro, main {
     margin-left: 125px;
     margin-right: 125px;
 }
 @media (max-width: 1024px) {
-    header, main {
+    #intro, main {
         margin-left: 75px;
         margin-right: 75px;
     }
 }
 @media (max-width: 768px) {
-    header, main {
+    #intro, main {
         margin-left: 50px;
         margin-right: 50px;
     }
 }
 @media (max-width: 480px) {
-    header, main {
+    #intro, main {
         margin-left: 20px;
         margin-right: 20px;
     }
+}
+#top-nav {
+    display: flex;
+    width: 450px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    opacity: 70%;
+}
+#img-circle {
+    background: rgba(255, 255, 255, 0.075);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.5px solid rgba(255, 255, 255, 0.20);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.20) inset;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#top-img {
+    width: 27px;
+    opacity: 70%;
+}
+#top a {
+    font-size: 1.25rem;
+    font-weight: 450;
+    color: var(--text);
+    text-decoration: none;
+}
+#top p:hover {
+    opacity: 80%;
 }
 #top-title {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    /* line-height: 0.25; */
-    padding-top: 25px;
     background: linear-gradient(var(--accent), #ef7493);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
