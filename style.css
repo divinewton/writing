@@ -48,13 +48,13 @@ body {
     width: 27px;
     opacity: 70%;
 }
-#top a {
+#title-link {
     font-size: 1.25rem;
     font-weight: 450;
     color: var(--text);
     text-decoration: none;
 }
-#top p:hover {
+#title-link:hover {
     opacity: 80%;
 }
 #intro {
