@@ -14,3 +14,11 @@ function openMoment() {
     document.getElementById("meaning-link").style.textDecoration = "none";
     window.scrollTo(0, 0);
 }
+
+// functions to open and close top menu
+function openMenu() {
+    document.getElementById("menu-container").style.display = "flex";
+}
+function closeMenu() {
+    document.getElementById("menu-container").style.display = "none";
+}
