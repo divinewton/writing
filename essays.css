@@ -19,11 +19,11 @@ body {
     word-wrap: break-word;
 }
 #narrative-container {
-    --text: #edf4f7;
-    --background: #071013;
-    --primary: #92cee3;
-    --secondary: #177392;
-    --accent: #1db9ed;
+    --text: #e4eeea;
+    --background: #0c1410;
+    --primary: #a5c7b7;
+    --secondary: #405c67;
+    --accent: #6780a1;
 }
 #autoethnography-container {
     --text: #f0e3e9;
