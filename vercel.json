@@ -1,6 +1,7 @@
 {
-    "rewrites": [
-      { "source": "/:path.html", "destination": "/:path" }
-
-    ]
+    "rewrites": [{ "source": "/narrative", "destination": "/personal-narrative.html" },
+    { "source": "/autoethnography", "destination": "/autoethnography.html" },
+    { "source": "/multimedia", "destination": "/eurythmy.html" },
+    { "source": "/manifesto", "destination": "/manifesto.html" },
+    { "source": "/reflection", "destination": "/reflection.html" }]
   }
