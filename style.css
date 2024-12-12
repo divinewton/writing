@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 html {
     /* scroll-behavior: smooth; */
@@ -36,11 +37,27 @@ header {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+#title-highlight {
+    font-size: 4.5rem;
+    font-weight: 650;
+    font-family: "Rubic", sans-serif;
+    color: var(--accent);
+    -webkit-text-fill-color: var(--background);
+    -webkit-text-stroke: 2.75px var(--accent);
+}
 #top-author {
     font-size: 2.75rem;
     font-weight: 600;
     color: var(--secondary);
     text-align: center;
+    margin-bottom: 0;
+}
+#class-name {
+    font-size: 1.25rem;
+    font-weight: 450;
+    color: var(--accent);
+    text-align: center;
+    margin-top: 20px;
 }
 .website-section {
     display: flex;
@@ -85,7 +102,7 @@ header {
     color: var(--primary);
     text-align: center;
 }
-#intro-text {
+.intro-text {
     font-size: 1.25rem;
     color: var(--text);
     line-height: 1.5;
