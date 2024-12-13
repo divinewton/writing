@@ -40,6 +40,36 @@ main {
     margin-bottom: 50px;
     margin-top: 50px;
 }
+@media (max-width: 1024px) {
+    #intro, main {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+@media (max-width: 768px) {
+    #intro, main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 480px) {
+    #intro, main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 510px) {
+    #top-nav {
+        gap: 0;
+        width: 100px;
+    }
+    #title-link {
+        display: none;
+    }
+    .subtitle {
+        display: none;
+    }
+}
 #top-nav {
     display: flex;
     width: 450px;
@@ -139,6 +169,16 @@ main {
 }
 #image-special img {
     width: 60%;
+}
+@media (max-width: 700px) {
+    #image-special img {
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .image-cont img {
+        width: 100%;
+    }
 }
 .img-caption {
     opacity: 50%;
