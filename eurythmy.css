@@ -40,19 +40,6 @@ body {
         margin-right: 20px;
     }
 }
-@media (max-width: 510px) {
-    #top-nav {
-        gap: 0;
-        width: 100px;
-    }
-    #title-link {
-
-        display: none;
-    }
-    .subtitle {
-        display: none;
-    }
-}
 #top-nav {
     display: flex;
     width: 450px;
@@ -132,6 +119,33 @@ body {
 .top-link:hover {
     cursor: pointer;
     opacity: 75%;
+}
+@media (max-width: 510px) {
+    #top-nav {
+        width: 400px;
+        height: 75px;
+        gap: 10px;
+        overflow: hidden;
+    }
+    #top-author {
+        font-size: 20px;
+    }
+    #top-title {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 400px) {
+    #top-author {
+        font-size: 15px;
+    }
+    #top-title {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 410px) {
+    #top-nav {
+        width: 300px;
+    }
 }
 .text-section {
     padding: 3%;
